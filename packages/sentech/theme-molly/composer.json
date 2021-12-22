@@ -1,0 +1,17 @@
+{
+    "name": "sentech/theme-molly",
+    "type": "library",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sentech\\ThemeMolly\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Sentech\\ThemeMolly\\ThemeMollyServiceProvider"
+            ]
+        }
+    }
+}
