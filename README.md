@@ -128,6 +128,10 @@ http(s)://example.com
 3. php artisan bagisto:install
 ```
 
+```
+4. php artisan bagisto:install
+```
+
 **To execute Bagisto**:
 
 ##### On server:
