@@ -64,22 +64,22 @@ to the ever-demanding online world. Your business -- whether small or huge -- ca
 
 It packs in lots of features that will allow your E-Commerce business to scale in no time:
 
-* Multiple Channels, Locale, Currencies.
-* Built-in Access Control Layer.
-* Beautiful and Responsive Storefront.
-* Descriptive and Simple Admin Panel.
-* Admin Dashboard.
-* Custom Attributes.
-* Built on Modular Approach.
-* Support for Multiple Store Themes.
-* Multistore Inventory System.
-* Orders Management System.
-* Customer Cart, Wishlist, Product Reviews.
-* Simple, Configurable, Group, Bundle, Downloadable and Virtual Products.
-* Price rules (Discount) inbuilt.
-* Theme (Velocity).
-* CMS Pages.
-* Check out [these features and more](https://bagisto.com/features/).
+-   Multiple Channels, Locale, Currencies.
+-   Built-in Access Control Layer.
+-   Beautiful and Responsive Storefront.
+-   Descriptive and Simple Admin Panel.
+-   Admin Dashboard.
+-   Custom Attributes.
+-   Built on Modular Approach.
+-   Support for Multiple Store Themes.
+-   Multistore Inventory System.
+-   Orders Management System.
+-   Customer Cart, Wishlist, Product Reviews.
+-   Simple, Configurable, Group, Bundle, Downloadable and Virtual Products.
+-   Price rules (Discount) inbuilt.
+-   Theme (Velocity).
+-   CMS Pages.
+-   Check out [these features and more](https://bagisto.com/features/).
 
 **For Developers**:
 Take advantage of two of the hottest frameworks used in this project -- Laravel and Vue.js -- both have been used in Bagisto.
@@ -90,13 +90,13 @@ Take advantage of two of the hottest frameworks used in this project -- Laravel 
 
 ### Requirements
 
-* **SERVER**: Apache 2 or NGINX.
-* **RAM**: 3 GB or higher.
-* **PHP**: 7.4 or higher.
-* **For MySQL users**: 5.7.23 or higher.
-* **For MariaDB users**: 10.2.7 or Higher.
-* **Node**: 8.11.3 LTS or higher.
-* **Composer**: 1.6.5 or higher.
+-   **SERVER**: Apache 2 or NGINX.
+-   **RAM**: 3 GB or higher.
+-   **PHP**: 7.4 or higher.
+-   **For MySQL users**: 5.7.23 or higher.
+-   **For MariaDB users**: 10.2.7 or Higher.
+-   **Node**: 8.11.3 LTS or higher.
+-   **Composer**: 1.6.5 or higher.
 
 ### Installation and Configuration
 
@@ -108,21 +108,25 @@ Take advantage of two of the hottest frameworks used in this project -- Laravel 
 
 ##### b. Extract the contents of the zip and execute the project in your browser:
 
-~~~
+```
 http(s)://example.com
-~~~
+```
 
 **2. Or you can install Bagisto from your console.**
 
 ##### Execute these commands below, in order
 
-~~~
-1. composer create-project bagisto/bagisto
-~~~
+```
+1. git clone https://github.com/nuwanchamp/Cartwheel-bagisto.git
+```
 
-~~~
-2. php artisan bagisto:install
-~~~
+```
+2. composer update
+```
+
+```
+3. php artisan bagisto:install
+```
 
 **To execute Bagisto**:
 
@@ -133,79 +137,39 @@ To do that, run the command below:
 
 > composer install --no-dev
 
-~~~
+```
 If not done, open the specified entry point in your host's file in your browser or make an entry in the host file.
-~~~
+```
 
 ##### On local:
 
-~~~
+```
 php artisan serve
-~~~
-
+```
 
 **How to log in as admin:**
 
-> *http(s)://example.com/admin/login*
+> _http(s)://example.com/admin/login_
 
-~~~
+```
 email:admin@example.com
 password:admin123
-~~~
+```
 
 **How to log in as a customer:**
 
-*You can directly register as a customer and then log in.*
+_You can directly register as a customer and then log in._
 
-> *http(s)://example.com/customer/register*
-
+> _http(s)://example.com/customer/register_
 
 ### License
+
 Bagisto is a truly open-source E-Commerce framework that will always be free under the [MIT License](https://github.com/bagisto/bagisto/blob/master/LICENSE).
 
 ### Security Vulnerabilities
+
 Would you please not disclose security vulnerabilities publicly? If you find any security vulnerability in Bagisto, then please email us: mailto:support@bagisto.com.
 
 ### Modules
+
 [Available Modules](https://bagisto.com/en/extensions)
-
-Need something else? Please email us at support@bagisto.com.
-
-### Miscellaneous
-
-#### Contribute
-
-Bagisto is a community-driven project; we appreciate every contribution from the community.
-
-- If you found an issue that you think we should know about, or if you have a suggestion, please submit an issue.
-- If you want to submit a solution or offer a new feature, please create a pull request.
-
-Please read our [contributing guide](https://github.com/bagisto/bagisto/blob/master/.github/CONTRIBUTING.md) for more info.
-
-#### Contributors
-
-This project is on [Open Collective](https://opencollective.com/bagisto), and it exists thanks to the people who contribute.
-
-<a href="https://github.com/bagisto/bagisto/graphs/contributors"><img src="https://opencollective.com/bagisto/contributors.svg?width=890&button=false"/></a>
-
-#### Backers
-
-Thank you to all our backers! 🙏
-
-<a href="https://opencollective.com/bagisto#contributors" target="_blank"><img src="https://opencollective.com/bagisto/backers.svg?width=890"></a>
-
-#### Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
-
-<div>
-    <a href="https://opencollective.com/bagisto/contribute/sponsor-7372/checkout" target="_blank">
-        <img src="https://images.opencollective.com/static/images/become_sponsor.svg">
-    </a>
-</div>
-
-<kbd>
-    <a href="http://e.ventures/" target="_blank">
-        <img src="https://images.opencollective.com/e-ventures1/7d61db2/logo.png" height="75">
-    </a>
-</kbd>
