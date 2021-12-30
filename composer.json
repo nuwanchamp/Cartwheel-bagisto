@@ -12,6 +12,13 @@
             "options": {
                 "symlink": true
             }
+        },
+        "dummy-data":{
+            "type": "path",
+            "url": "packages/sentech/dummy-data",
+            "options": {
+                "symlink": true
+            }
         }
     },
     "license": "MIT",
@@ -40,6 +47,7 @@
         "khaled.alshamaa/ar-php": "^6.0.0",
         "konekt/concord": "^1.2",
         "laravel/framework": "^8.75",
+        "laravel/legacy-factories": "^1.1",
         "laravel/scout": "^8.0",
         "laravel/socialite": "^5.0",
         "laravel/tinker": "^2.0",
@@ -47,7 +55,8 @@
         "maatwebsite/excel": "^3.1.26",
         "paypal/paypal-checkout-sdk": "1.0.1",
         "prettus/l5-repository": "^2.6",
-        "sentech/theme-molly": "@dev"
+        "sentech/theme-molly": "@dev",
+        "sentech/dummy-data": "@dev"
     },
     "require-dev": {
         "codeception/codeception": "^4.1",
@@ -112,7 +121,7 @@
             "Webkul\\SocialLogin\\": "packages/Webkul/SocialLogin/src",
             "Webkul\\DebugBar\\": "packages/Webkul/DebugBar/src",
             "Webkul\\Marketing\\": "packages/Webkul/Marketing/src"
-           
+
         }
     },
     "autoload-dev": {

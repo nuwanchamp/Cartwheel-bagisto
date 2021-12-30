@@ -1,0 +1,17 @@
+{
+    "name": "sentech/dummy-data",
+    "type": "library",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sentech\\DummyData\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Sentech\\DummyData\\DataFakerServiceProvider"
+            ]
+        }
+    }
+}
